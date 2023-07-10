@@ -1,5 +1,5 @@
 function fetchCurrencyData() {
-    fetch('http://data.fixer.io/api/latest?access_key=ec354f24e6091156d89f3ebd5da1afa1&format=1')
+    fetch('https://bit.ly/3NJh1MY')
         .then(response => response.json())
         .then(data => {
       
