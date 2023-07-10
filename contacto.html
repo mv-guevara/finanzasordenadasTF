@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas Ordenadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>  
+     
+        <nav>
+        <ul>
+            <li><img src="logo.png" alt="logo"> </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="tutoriales.html">Tutoriales</a></li>
+            <li><a href="novedades.html">Novedades</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+        
+    <h2>Contacto</h2>
+   
+    </header>
+
+    <div id="contenedor-contacto"> 
+            
+            <div clas="foto-contacto">
+                <img src="woman-laptop.png">
+            </div>
+
+            <div class="form-contacto"> 
+               
+                <form action="./action_page.php">
+                    <fieldset>
+                        <h4>Para realizar una consulta completá el siguiente formulario:</h4> 
+                            <label for="Nombre">Nombre</label><br>
+                            <input type="text"> <br><br>
+                            <label for="mail">Email</label><br>
+                            <input type="email"><br><br>
+                            <label for="Consulta">Seleccione el tema </label>
+                
+                            <div><select name="Consulta" id="consulta">
+                                <option value="monotributo"> Monotributo</option>
+                                <option value="ingresos brutos">Ingresos Brutos</option>
+                                <option value="liquidación de haberes">Liquidación de Haberes</option>
+                                <option value="asesormaiento inicial">Asesoramiento inicial</option>
+                                <option value="otros">Otros</option>
+                            </select></div><br>
+
+                    <div><label for="consultas"></label>
+                    <textarea name="consultas" id="consultas" cols="150" rows="9"></textarea></div>
+                    <div class="boton" id="btnClick"><input type="submit" value="Enviar" onclick="alert('Su consulta será respondida a la brevedad')"></div>
+                    
+                    <script>
+                    var btnElm = console.log ('btnClick')  
+                    pElm.textContent = 0;
+                    
+                    btnElm.onclick = function(){
+                        contar++;
+                        pElm.textContent = contar;
+                        console.log  btnElm();
+                        }
+                    </script>
+
+                    <div><h4>Si deseás solicitar un cotización de nuestros servicios, clickee aquí</h4>
+                    <input type="submit" value="Cotizar" onclick="alert('Gracias por contactarnos, nos comunicaremos con usted a la brevedad')"></div>
+                            </fieldset>
+                            </form>
+
+            </div>
+
+           
+
+    </div>
+
+    <div >
+    <footer>Finanzas Ordenadas  | Grupo 7 - Jump! 2023 | 
+        <a href="index.html">Home</a> 
+        <a href="servicios.html">Servicios</a>
+        <a href="tutoriales.html">Tutoriales</a>
+        <a href="novedades.html">Novedades</a>
+        <a href="contacto.html">Contacto</a>
+        
+    </footer>
+    </div>
+    
+
+    
+</body>
+</html>
